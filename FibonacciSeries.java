@@ -1,0 +1,22 @@
+package week1.day2;
+
+public class FibonacciSeries {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=0, b=1, temp, range=8;
+		System.out.print(a+" "+b);
+		
+		for (int i = 0; i <range; i++) {
+			temp=a+b;
+			System.out.print(" "+temp);
+			a=b;
+			b=temp;
+			
+			
+		}
+			
+		}
+	}
+
+
